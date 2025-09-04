@@ -1,7 +1,7 @@
 // URL de tu proxy en Vercel o directo al Apps Script si estás en localhost
 const API_URL = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') 
     ? 'https://script.google.com/macros/s/AKfycbzRIIZ4QcNIWONWs9E2Urtb75SWQskGgzXnNCl7DaXc-0Xaxlwh0tv9s6ZW0oj1iBvD/exec' 
-    : 'https://tu-proyecto.vercel.app/api/proxy';
+    : 'https://turnos-app-khaki.vercel.app/api/proxy';
 
 // Convierte "HH:mm" en formato AM/PM
 const formatHora = (horaStr) => {
